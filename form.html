@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>Document</title>
   </head>
   <body>
-    <h2>Daagens lunch</h2>
+    <article class="container">
+      <h2>Dagens lunch</h2>
+      <form>
+        <label for="lunch">Dagens lunch:</label>
+        <input type="text" id="lunch" name="lunch" />
+        <label for="pris">pris:</label>
+        <input type="number" id="pris" name="pris" />
+        <label for="vego">Vegetariskt tack!</label>
+        <input type="radio" id="vego" name="vego" />
+        <p>Allergier:</p>
+        <label for="gluten">Gluten</label>
+        <input type="checkbox" id="gluten" name="gluten" />
+        <label for="mjolk">Mjölk</label>
+        <input type="checkbox" id="mjolk" name="mjolk" />
+        <label for="agg">Ägg</label>
+        <input type="checkbox" id="agg" name="agg" />
+      </form>
+    </article>
+    <script src="main.js"></script>
   </body>
 </html>
