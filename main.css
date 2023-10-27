@@ -54,3 +54,7 @@ footer {
     padding: 2em 3em;
     text-align: center;
 }
+
+.hideForm {
+    display: none;
+}
