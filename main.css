@@ -1,3 +1,48 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(76, 118, 73);
+    width: 100%;
+    padding: 2em 3em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+header li {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px double black;
+    width: 40%;
+    margin: 5em auto;
+    height: 50vh;
+}
+
+footer {
+    background-color: rgb(76, 118, 73);
+    color: white;
+    width: 100%;
+    padding: 2em 3em;
+    text-align: center;
 }
