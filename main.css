@@ -39,6 +39,12 @@ header a {
     height: 50vh;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 footer {
     background-color: rgb(76, 118, 73);
     color: white;
