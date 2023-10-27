@@ -3,6 +3,7 @@ const lunch = document.getElementById("lunch");
 const lunchText = document.getElementById("lunchText");
 const pris = document.getElementById("pris");
 const lunchPris = document.getElementById("lunchPris");
+const article = document.querySelector("article");
 
 mittFormulär.addEventListener('submit', printLunch);
 
@@ -15,5 +16,5 @@ function printLunch(event){
     const prisValue = pris.value;
     lunchPris.textContent = prisValue + "kr";
 
-    mittFormulär.classList.add("hideForm");
+    article.classList.add("hideForm");
 }
