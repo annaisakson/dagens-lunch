@@ -14,4 +14,6 @@ function printLunch(event){
 
     const prisValue = pris.value;
     lunchPris.textContent = prisValue + "kr";
+
+    mittFormulär.classList.add("hideForm");
 }
